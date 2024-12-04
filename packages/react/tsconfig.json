@@ -1,0 +1,19 @@
+// {
+//   "extends": "../tsconfig/react-library.json",
+//   "include": ["."],
+//   "exclude": ["dist", "build", "node_modules"]
+// }
+
+{
+  "extends": "../tsconfig/react-library.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@pivothead/core": ["../core/src"]
+    }
+  },
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
+}
+
+
